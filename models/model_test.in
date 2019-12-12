@@ -1,0 +1,50 @@
+////////////////////////////////////
+title model_test
+////////////////////////////////////
+set punch prefix "model_test"
+Blackbody 45740.301331
+q(H) = 46.971
+radius = 17.691
+hden = 2.001
+filling factor = 1.0
+element abundance helium -0.920
+element abundance carbon -5.150
+element abundance nitrogen -4.000
+element abundance oxygen -3.400
+element abundance neon -4.000
+element abundance sulphur -5.350
+element abundance argon -5.800
+element abundance iron -7.400
+element abundance chlorine -7.000
+distance = 1346.3646876417597 parsecs linear
+no molecules
+no level2 lines
+no fine opacities
+atom h-like levels small
+element limit off -8
+iterate
+sphere
+save last radius ".rad"
+save last continuum ".cont"
+save last physical conditions ".phy"
+save last overview ".ovr"
+save last heating ".heat"
+save last cooling ".cool"
+save last optical depth ".opd"
+save last element hydrogen ".ele_H"
+save last element helium ".ele_He"
+save last element carbon ".ele_C"
+save last element nitrogen ".ele_N"
+save last element oxygen ".ele_O"
+save last element argon ".ele_Ar"
+save last element neon ".ele_Ne"
+save last element sulphur ".ele_S"
+save last element chlorin ".ele_Cl"
+save last element iron ".ele_Fe"
+save last element silicon ".ele_Si"
+save last lines emissivity ".emis"
+H  1  4861.33A
+H  1  6562.81A
+N  2  6583.45A
+O  3  5006.84A
+end of lines
